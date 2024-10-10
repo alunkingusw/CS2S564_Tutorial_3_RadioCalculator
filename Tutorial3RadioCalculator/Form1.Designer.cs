@@ -50,10 +50,12 @@
             btnCalculate.TabIndex = 0;
             btnCalculate.Text = "Calculate";
             btnCalculate.UseVisualStyleBackColor = true;
+            btnCalculate.Click += btnCalculate_Click;
             // 
             // rdoAdd
             // 
             rdoAdd.AutoSize = true;
+            rdoAdd.Checked = true;
             rdoAdd.Font = new Font("Segoe UI", 12F);
             rdoAdd.Location = new Point(272, 14);
             rdoAdd.Name = "rdoAdd";
